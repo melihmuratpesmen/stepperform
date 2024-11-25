@@ -1,12 +1,15 @@
 import { AiOutlineGithub } from 'react-icons/ai';
 import { ImYoutube2 } from 'react-icons/im';
 import { MdOutlinePlaylistPlay } from 'react-icons/md';
-
+import page from './complex/simple-multi-step-form/page'
 const HomePage = () => {
   return (
     <div className='bg-white dark:bg-slate-900 dark:text-white rounded-lg mx-4 p-4'>
-      <h1 className='text-2xl font-semibold'>Nextjs Tailwind SandBox</h1>
-      <div className='flex flex-col gap-4 w-fit'>
+      <h1 className='text-2xl font-semibold'>Ürün Takip ve Kayıt Formu</h1>
+      <div>
+        <page></page>
+      </div>
+      {/* <div className='flex flex-col gap-4 w-fit'>
         <a
           className='my-2 text-rose-700 flex items-center'
           href='https://www.youtube.com/@DevEmpower'
@@ -28,7 +31,7 @@ const HomePage = () => {
         >
           <AiOutlineGithub className='text-5xl mr-2' /> (GitHub)
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };

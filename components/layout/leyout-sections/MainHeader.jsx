@@ -49,9 +49,9 @@ const MainHeader = () => {
         <div onClick={toggle} className='lg:hidden'>
           <FaBars className='cursor-pointer' />
         </div>
-        <div>
+        {/* <div>
           <UserAreaSelectBox />
-        </div>
+        </div> */}
       </div>
     </div>
   );
